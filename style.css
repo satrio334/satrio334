@@ -1,0 +1,273 @@
+/* Reset beberapa default styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Gaya untuk header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Gaya untuk hero section */
+#hero {
+    background-image: url('cafe.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Gaya tambahan untuk tombol "Lihat Menu" */
+.cta-button {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.8); /* Latar belakang transparan */
+    color: #060800;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    background-image: url('food-background.jpg'); /* Ganti dengan nama gambar Anda */
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    transition: background-color 0.3s, color 0.3s; /* Animasi perubahan warna saat hover */
+}
+
+.cta-button:hover {
+    background-color: #333; /* Warna latar belakang saat tombol dihover */
+    color: #efe9e9; /* Warna teks saat tombol dihover */
+}
+
+
+
+
+/* Gaya untuk menu section */
+#menu {
+    background-color: #efecec;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#menu h2 {
+    font-size: 36px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul li {
+    margin: 0 20px;
+}
+
+#menu ul li img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#menu h3 {
+    margin: 20px 0;
+}
+
+#menu p {
+    font-size: 16px;
+}
+
+#menu span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Gaya untuk about section */
+#about {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 36px;
+}
+
+#about p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Gaya untuk contact section */
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+address {
+    margin-top: 20px;
+}
+
+address p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Gaya untuk footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+/* Gaya untuk mengubah warna teks "Kontak" menjadi putih */
+.btn {
+    color: white;
+}
+/* ... Kode CSS yang ada sebelumnya ... */
+
+/* Tampilan Tombol "Pesan" */
+.order-button {
+    background-color: #f1592a;
+    color: #0a65f9;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.order-button:hover {
+    background-color: #d13c09;
+}
+
+/* Style menu items */
+.menu-list {
+    list-style: none;
+}
+
+.menu-list li {
+    margin-bottom: 30px;
+}
+
+/* Style "Pesan" button */
+.pesan-button {
+    background-color: #333;
+    color: rgb(11, 159, 250);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pesan-button:hover {
+    background-color: #555;
+}
+
+/* Style menu details */
+.menu-list h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-list p {
+    margin-bottom: 5px;
+}
+
+/* Style menu section title */
+#menu h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Gaya tombol buka popup */
+#open-popup-button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
