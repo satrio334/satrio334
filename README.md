@@ -1,1 +1,2 @@
-JAJALAN 1 
+JAJALAN 
+satria purnomo aji
